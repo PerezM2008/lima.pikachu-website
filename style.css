@@ -1,0 +1,40 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#F5CF06;
+    --secundary-color:#8E4106;
+}
+body{
+    height: 100vh;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    height: 100%;
+    display: flex;
+}
+
+header{
+    flex-grow: 1;
+    position: relative;
+}
+
+main{
+    background-color: brown;
+   flex-grow: 5;
+   position: relative;
+   align-items: center;
+   justify-items: center;
+
+
+}
+
+footer{
+   flex-grow: 1;
+    
+}
